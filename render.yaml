@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sj-voucher
+    env: docker
+    plan: free
+    branch: main
+    region: oregon
+    dockerfilePath: Dockerfile
+    buildCommand: ""
+    startCommand: ""
